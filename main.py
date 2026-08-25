@@ -21,7 +21,7 @@ app.add_middleware(
 templates = Jinja2Templates(directory="templates")
 
 SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com")
-SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
+SMTP_PORT = int(os.getenv("SMTP_PORT", "465"))
 SMTP_SENDER = os.getenv("SMTP_SENDER", "ebnalnasirs13@gmail.com")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "Sk_barniko12")
 ADMIN_EMAIL = os.getenv("ADMIN_EMAIL", "barniko2017@gmail.com")
